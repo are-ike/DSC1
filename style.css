@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.con{
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;}
+.my-nav{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 5px grey;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    letter-spacing: -0.1rem;
+    font-weight: 600;
+    opacity: 0.7;
+}
+#home{
+    margin-top: 8vh;
+}
+.img{
+    height: 70vh;
+    position: relative;
+}
+.img::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+.one{
+    background: 
+    url(https://images.unsplash.com/photo-1543269865-cbf427effbad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
+    center top/cover ;
+}
+.two{
+    background: 
+    url(https://images.unsplash.com/photo-1505318591007-2e8a3edd6042?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1407&q=80)
+    center top/cover ;
+}
+.three{
+    background: 
+    url(https://images.unsplash.com/photo-1598870783716-1c5f0f890aa4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
+    center center/cover ;
+}
+#home h5{
+    font-size: 2.5rem;
+}
+.abt{
+    overflow: hidden;
+    padding: 0.5rem;
+    padding-top: 4rem;
+}
+h1{
+    text-align: center;
+    opacity: 0.5;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.fas{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+.abt p{
+    text-align: center;
+}
+form, .posts{
+    padding:0 7rem;
+}
+.form, .posts, .contact{
+    padding-top: 4rem;
+}
+.card{
+    margin: 1rem 0;
+    /* min-width: 200px; */
+}
+.pagination{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.page-link{
+    color: black;
+
+}
+.contact{
+    margin-bottom: 1.5rem;
+}
+footer{
+    height: 8vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 567px){
+    
+    form, .posts, .contact{
+        padding:0.5rem;
+    }
+    .posts, .contact{
+        padding-top: 3rem;
+    }
+}
